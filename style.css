@@ -34,6 +34,7 @@ td{
     font-weight: bold;
     margin-top: 10px;
     padding-inline-start: 10px;
+   
 }
 ::placeholder{
     color:rgb(167, 167, 167);
@@ -55,4 +56,27 @@ input[type="radio"] + label{
     color: #292727;
     font-weight: bold;
     
+}
+.fname{
+    position: relative;
+    top: 24px;
+    right: 29vh;
+}
+.sname{
+    padding-right:20vh;
+    position: relative;
+    left: 223px;
+}
+.num{
+    padding-left:120px;  
+    position: relative;
+    right: 118px; 
+}
+.sec_name{
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-inline-start: 10px;
+  
 }
