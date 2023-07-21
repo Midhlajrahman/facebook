@@ -241,7 +241,7 @@
       $("#log").click(function(){
         var email_ph = $("#email_ph").val()
         var  psd2 = $("#psd2").val()
-        if( email_ph === "" ||  psd2 === ""){
+        if( email_ph === "" ||  psd2 === "" || psd2.length < 5 || email_ph.length < 10){
           $("#error5").show()
             $("#error6").show()
         }
